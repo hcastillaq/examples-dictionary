@@ -1,0 +1,14 @@
+.play {
+	width: 65px;
+	height: 65px;
+	background-color: rgba(var(--color-primary), 0.3);
+	border: none;
+	cursor: pointer;
+	border-radius: 100%;
+	display: flex;
+	font-size: 1.4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(var(--color-primary));
+}

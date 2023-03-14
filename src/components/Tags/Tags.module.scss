@@ -1,0 +1,14 @@
+.tags {
+	display: flex;
+	gap: 30px;
+	margin: 20px 0px;
+
+	.title {
+		color: rgb(var(--color-gray));
+	}
+
+	.tag {
+		color: rgb(var(--color-primary));
+		font-weight: bold;
+	}
+}

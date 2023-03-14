@@ -1,0 +1,20 @@
+.query {
+	margin: 60px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	h1 {
+		font-size: clamp(1.5rem, 2.5vw, 4rem);
+		margin: 0px;
+		padding: 0px;
+	}
+
+	p {
+		font-size: clamp(1rem, 2vw, 1.3rem);
+		margin: 10px 0px;
+		padding: 0px;
+		color: rgb(var(--color-primary));
+	}
+
+}

@@ -1,0 +1,28 @@
+.list {
+	ul {
+		list-style: none;
+
+		li {
+			margin: 10px 0px;
+
+			&::before {
+				content: "•";
+				color: rgb(var(--color-primary));
+				font-weight: bold;
+				position: relative;
+				font-style: 1rem;
+				margin-left: -1.5rem;
+				top: 1.5rem;
+			}
+
+			.example {
+				color: rgb(var(--color-gray));
+			}
+		}
+	}
+
+	h3 {
+		color: rgb(var(--color-gray));
+		font-weight: 100;
+	}
+}
