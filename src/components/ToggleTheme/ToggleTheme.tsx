@@ -10,7 +10,7 @@ const ToggleTheme = () => {
 	};
 
 	return (
-		<div className={`${styles.toggleBtn} flex justify-end mb3`}>
+		<div className={`${styles.toggleBtn}`}>
 			<button onClick={handleClick} type="button" className="pointer">
 				{theme === "light" ? "☀" : "☪"}
 			</button>

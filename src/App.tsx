@@ -107,7 +107,18 @@ function App() {
 	return (
 		<Container>
 			<appContext.Provider value={{ query, sound, phonetic }}>
-				<ToggleTheme />
+				<div className="flex  items-center justify-between mb3">
+					<small>
+						<a
+							href="https://github.com/hcastillaq/examples-dictionary"
+							target="_blank"
+							rel="noreferrer"
+						>
+							github
+						</a>
+					</small>
+					<ToggleTheme />
+				</div>
 				<Search search={handleSearch} />
 				{notFound && !loading ? <NotFound /> : null}
 				{!(loading || notFound) ? <Content /> : null}
