@@ -123,7 +123,7 @@ function App() {
 				{notFound && !loading ? <NotFound /> : null}
 				{!(loading || notFound) ? <Content /> : null}
 				{!notFound && loading ? (
-					<div className="flex justify-center mt3">...</div>
+					<div className="flex justify-center mt3">loading...</div>
 				) : null}
 			</appContext.Provider>
 		</Container>

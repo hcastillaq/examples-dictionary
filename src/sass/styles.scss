@@ -3,7 +3,7 @@
 	--color-background: 255, 255, 255;
 	--color-gray: 123, 123, 123;
 	--color-search: #f4f4f4;
-	color: black;
+	--color-font: black;
 }
 
 
@@ -12,11 +12,15 @@ html[data-theme='dark'] {
 	--color-background: 0, 0, 0;
 	--color-gray: 180, 180, 180;
 	--color-search: #222222;
-	color: white;
+	--color-font: white;
+}
 
-	input {
-		color: white;
-	}
+
+html,
+input,
+a,
+button {
+	color: var(--color-font);
 }
 
 body {
@@ -25,6 +29,7 @@ body {
 	background-color: rgb(var(--color-background));
 	font-size: clamp(1rem, 1.5vw, 1.2rem);
 	font-family: 'Courier New', Courier, monospace;
+
 }
 
 .text-gray {
